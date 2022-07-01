@@ -1,0 +1,38 @@
+.Equations{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border-radius: 5%;
+    width: 30%;
+   
+    min-width: 550px;
+    padding-top: 1%;
+    margin-right: 5%;
+    
+}
+.Equation{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    border-radius: 20%;
+    
+   
+   
+}
+.Equation h1{
+    margin-right: 5%;
+}
+
+.Equation input{
+    width: 100%;
+    height: 100%;
+   
+    margin-right: 5%;
+    text-align: center;
+    font-size: 2rem;
+    align-self: center;
+    
+   
+    
+   
+}

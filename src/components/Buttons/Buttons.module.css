@@ -1,0 +1,19 @@
+.Buttons{
+    display: flex;
+    flex-direction: column
+}
+.Buttons button{
+    height: 5%;
+    width: 100%;
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+    
+}
+.Buttons label{
+    font-size: 1.4rem;
+}
+
+.Buttons select{
+    margin-bottom: 10%;
+    font-size: 1rem;
+}
