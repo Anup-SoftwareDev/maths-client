@@ -6,8 +6,8 @@ import { useNavigate } from 'react-router-dom';
 
 
 const   SignUpForm = () => {
-    const {store, dispatch} = useGlobalState();
-    const {loginUser} = store;
+    const {dispatch} = useGlobalState();
+ //   const {loginUser} = store;
     const navigate = useNavigate();
 
     const initialFormData = {
