@@ -2,13 +2,13 @@ import classes from './SignInForm.module.css'
 import { useState } from 'react'
 import { signIn } from './services/authServices'
 import { useGlobalState } from './utils/StateContext'
-import { Navigate } from "react-router-dom";
+//import { Navigate } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 
 const   SignInForm = () => {
-    const {store, dispatch} = useGlobalState();
-    const {loginUser} = store;
-
+    const {dispatch} = useGlobalState();
+    //const {loginUser} = store;
+    //console.log(loginUser)
     const initialFormData = {
         username: "",
         email: "",
