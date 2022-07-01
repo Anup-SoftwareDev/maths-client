@@ -120,7 +120,7 @@ const onChangeHandler = (e) =>{
             </Routes> 
             :
                 <>
-                    <h1>Welcome {loginUser}</h1>
+                    <h1>Welcome to Math Practice {loginUser}</h1>
                     <div className = {classes.Page}>
                         <Equations onChangeHandler={onChangeHandler} val={val}/>
                         <Buttons handleChange={handleChange} onClickHandler={onClickHandler}/>
