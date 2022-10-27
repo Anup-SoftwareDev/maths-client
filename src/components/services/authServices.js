@@ -12,11 +12,6 @@ export async function signIn(data){
     return response.data
 }
 
-export async function showResults(){
-    const response = await axios.get('http://localhost:4000/scores')
-    //console.log(response.data)
-    return response.data
-}
 export async function showUsers(){
     const response = await axios.get('http://localhost:4000/users')
     console.log(response.data)

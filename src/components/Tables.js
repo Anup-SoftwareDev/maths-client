@@ -36,7 +36,8 @@ const onClickHandler = (e) =>{
     let dispData;
     let tempScore=0;
     const answer = Object.values(answerValue);
-    console.log(val,answer)
+    //console.log(val,answer)
+    console.log(val)
     for(let i=1;i<=val.length;i++){
         console.log((i*val[i-1]),answer[i])
         if((i*val[i-1])===Number(answer[i])){

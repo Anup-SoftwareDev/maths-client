@@ -21,7 +21,7 @@ const Equations = ({onChangeHandler,val}) => {
                 <h1>=</h1> 
                 <input key = {i} name ={i} value = {answerValue[i]} onChange={onChangeHandler} autoComplete="off"></input>
                 {display?answerValue[i]===String(i*val[i-1])?<h1 style = {{color:'green'}}>✓</h1>:
-                <h1 style = {{color:'red'}}>✗</h1>:''}
+                <h1 style = {{color:'red'}}>✗ {String(i*val[i-1])}</h1>:''}
               
             </div> )}  
             {/*console.log(val, answerValue)*/}

@@ -1,7 +1,8 @@
 import classes from './Buttons.module.css';
 import { useGlobalState } from '../utils/StateContext';
 import { useNavigate } from 'react-router-dom';
-import { showResults, showUsers} from '../services/authServices'
+import { showResults } from '../services/scoreServices';
+import {showUsers} from '../services/authServices'
 import React, { useState } from 'react';
 //import reducer from '../utils/reducer';
 
@@ -23,6 +24,7 @@ const Buttons = ({handleChange, onClickHandler}) => {
     const showResultsHandler = () =>{
         showResults()
         .then(response=>setScore(response))
+        console.log(score)
         showUsers()
         .then(response=>{
             console.log(response)
